@@ -38,12 +38,7 @@ addToTrash('shorts', 20);
 
 function countBasketPrice(arrayTrash){
     var sum = 0;
-    for (i = 0; i <= arrayTrash.length; i++){
-        console.log(arrayTrash[i][1]); 
-        /*Выдает ошибку Uncaught TypeError: Cannot read property '1' of undefined
-    at countBasketPrice (main.js:42)
-    at <anonymous>:1:1 
-    Т.е. он не может найти элемент массива. Однако console.log данные вытягивает. Ручной подсчет arrayTrash[1][1]+arrayTrash[0][1] дает верный результат. Еще посижу, подумаю, но что-то не понимаю, почему выпадает ошибка*/
+    for (i = 0; i < arrayTrash.length; i++){
         sum += arrayTrash[i][1];
     }
     return sum;
