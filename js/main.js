@@ -1,0 +1,10 @@
+var indexH1 = document.getElementById('indexH1');
+indexH1.innerHTML = 'Греческие продукты';
+var indexH3 = document.getElementById('indexH3');
+indexH3.innerHTML = 'Добро пожаловать в оптовый интернет-магазин!';
+var indexP1 = document.getElementById('indexP1');
+indexP1.innerHTML = 'Мы являемся поставщиками высококачественной греческой био продукции на российский рынок. В нашем ассортименте оливки и оливковое масло высочайшего качества, бальзамический уксус, сиропы и сок алоэ, косметика на основе оливок, алоэ и других природных материалов.';
+var indexP2 = document.getElementById('indexP2');
+indexP2.innerHTML = 'Всегда Вам рады!';
+var footer = document.getElementById('footer');
+footer.innerHTML = '&copy; Все права защищены.';
